@@ -77,11 +77,7 @@ body{
     font-size: 40px;
     width: 70%;
 }
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
-}
+
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
@@ -104,4 +100,9 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
